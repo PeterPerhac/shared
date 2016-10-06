@@ -8,12 +8,14 @@ alias ..="cd .."
 alias cd-="cd -"
 #because fuck typing ll when lll is easier
 alias lll='ls -alF'
+#because fuck typing clear when clera is so much easier
+alias clera='clear'
 
 # Favourites - bookmarks
 alias 0="cd ~"
 alias 1="cd ~/projects"
 alias 2="cd /home/pperhac/projects/coursera-scala-course"
-alias 3="cd /home/pperhac/projects/coursera-scala-course/course2/streams"
+alias 3="cd /home/pperhac/projects/coursera-scala-course/course2/quickcheck"
 
 #single-letter favourites
 alias d="cd /home/pperhac/Downloads"
