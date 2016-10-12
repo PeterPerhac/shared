@@ -39,5 +39,7 @@ alias grebase="git pull -r"
 alias jdk="cd /usr/lib/jvm/java-8-openjdk-amd64/"
 alias cs="cd /home/pperhac/projects/cheat-sheets/"
 alias shared="cd /home/pperhac/shared/"
-alias vpp="/home/pperhac/projects/vpp/microservices-spring-boot"
+alias vpp="cd /home/pperhac/projects/vpp/microservices-spring-boot"
 
+#for opening files with default application
+alias xo="xdg-open"
