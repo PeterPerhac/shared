@@ -3,6 +3,7 @@ alias ebp="vim ~/.bash_aliases"
 alias sbp="source ~/.bashrc"
 
 alias dcom="docker-compose"
+alias zap="docker run -d -u zap -p 8080:8080 -p 8090:8090 -i owasp/zap2docker-stable zap-webswing.sh"
 
 # basic CD-ing
 alias cd..="cd .."
@@ -16,8 +17,7 @@ alias clera='clear'
 # Favourites - bookmarks
 alias 0="cd ~"
 alias 1="cd ~/projects/"
-alias 2="cd /home/pperhac/projects/coursera-scala-course/"
-alias 3="cd /home/pperhac/projects/coursera-scala-course/course2/quickcheck/"
+alias 2="cd /home/pperhac/projects/coursera-scala-course/course2/calculator/"
 
 #single-letter favourites
 alias d="cd /home/pperhac/Downloads/"
