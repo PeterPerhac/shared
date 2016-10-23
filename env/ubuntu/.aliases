@@ -1,7 +1,9 @@
 # editing and reloading bashrc
-alias ebp="vim ~/.bash_aliases"
-alias sbp="source ~/.bashrc"
+alias ebp="vim ~/.aliases"
+alias sbp="source ~/.zshrc"
 
+alias dps="docker ps"
+alias dpsa="docker ps -a"
 alias dcom="docker-compose"
 alias zap="docker run -d -u zap -p 8080:8080 -p 8090:8090 -i owasp/zap2docker-stable zap-webswing.sh"
 
@@ -9,8 +11,10 @@ alias zap="docker run -d -u zap -p 8080:8080 -p 8090:8090 -i owasp/zap2docker-st
 alias cd..="cd .."
 alias ..="cd .."
 alias cd-="cd -"
+alias ls='ls --color=auto'
+alias ll='ls -alF --color=auto'
 #because fuck typing ll when lll is easier
-alias lll='ls -alF'
+alias lll='ls -alF --color=auto'
 #because fuck typing clear when clera is so much easier
 alias clera='clear'
 
