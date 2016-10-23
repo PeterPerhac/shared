@@ -1,5 +1,6 @@
+cp ~/.zshrc .
 cp ~/.bashrc .
-cp ~/.bash_aliases .
+cp ~/.aliases .
 cp ~/.bash_functions .
 cp ~/.vimrc .
 
