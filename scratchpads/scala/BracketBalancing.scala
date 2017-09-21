@@ -4,10 +4,8 @@ import scala.collection.mutable.Stack
 object Solution {
 
   val bracketMap = Map('(' -> ')', '[' -> ']', '{' -> '}')
-  lazy val brackets = bracketMap.flatMap(tuple => List(tuple._1, tuple._2)).toList
-  val isOpenBracket: (Char) => Boolean = bracketMap.keySet.contains(_)
-
-  def isClosingBracket(closingBracketCandidate: Char, openBracket: Char): Boolean = bracketMap.toList contains (openBracket -> closingBracketCandidate)
+  val isOpenBracket = bracketMap.keySet.contains(_)
+  def isClosingBracket(cb: Char, ob: Char): Boolean = bracketMap.get(ob).contains(cb)
 
   def balanced(brackets: List[Char]): Boolean = {
     val bracketStack = mutable.Stack[Char]()
