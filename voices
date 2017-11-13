@@ -1,3 +1,7 @@
+say -v '?'
+say -v '?' | grep en_
+
+
 Alex                en_US    # Most people recognize me by my voice.
 Alice               it_IT    # Salve, mi chiamo Alice e sono una voce italiana.
 Alva                sv_SE    # Hej, jag heter Alva. Jag är en svensk röst.
